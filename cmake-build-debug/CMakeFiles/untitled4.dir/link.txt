@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/untitled4.dir/main.cpp.o CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.o CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.o CMakeFiles/untitled4.dir/nimGenerator.cpp.o CMakeFiles/untitled4.dir/player.cpp.o CMakeFiles/untitled4.dir/configuration.cpp.o CMakeFiles/untitled4.dir/Humain.cpp.o CMakeFiles/untitled4.dir/robot.cpp.o  -o untitled4 -lSDL2 

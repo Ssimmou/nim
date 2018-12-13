@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jupiter/CLionProjects/untitled4/cmake-build-debug/robot.cpp
+robot.h
+/home/jupiter/CLionProjects/untitled4/cmake-build-debug/robot.h
+
+/home/jupiter/CLionProjects/untitled4/cmake-build-debug/robot.h
+string
+-
+../player.h
+/home/jupiter/CLionProjects/untitled4/player.h
+
+/home/jupiter/CLionProjects/untitled4/nimTurn.h
+iostream
+-
+
+/home/jupiter/CLionProjects/untitled4/player.h
+iostream
+-
+string
+-
+nimTurn.h
+/home/jupiter/CLionProjects/untitled4/nimTurn.h
+
