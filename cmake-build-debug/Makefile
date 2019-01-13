@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled4
+# Target rules for targets named NimGame
 
 # Build rule for target.
-untitled4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 untitled4
-.PHONY : untitled4
+NimGame: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NimGame
+.PHONY : NimGame
 
 # fast build rule for target.
-untitled4/fast:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/build
-.PHONY : untitled4/fast
+NimGame/fast:
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/build
+.PHONY : NimGame/fast
 
 Easy.o: Easy.cpp.o
 
@@ -129,7 +129,7 @@ Easy.o: Easy.cpp.o
 
 # target to build an object file
 Easy.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Easy.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Easy.cpp.o
 .PHONY : Easy.cpp.o
 
 Easy.i: Easy.cpp.i
@@ -138,7 +138,7 @@ Easy.i: Easy.cpp.i
 
 # target to preprocess a source file
 Easy.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Easy.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Easy.cpp.i
 .PHONY : Easy.cpp.i
 
 Easy.s: Easy.cpp.s
@@ -147,7 +147,7 @@ Easy.s: Easy.cpp.s
 
 # target to generate assembly for a file
 Easy.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Easy.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Easy.cpp.s
 .PHONY : Easy.cpp.s
 
 Hard.o: Hard.cpp.o
@@ -156,7 +156,7 @@ Hard.o: Hard.cpp.o
 
 # target to build an object file
 Hard.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Hard.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Hard.cpp.o
 .PHONY : Hard.cpp.o
 
 Hard.i: Hard.cpp.i
@@ -165,7 +165,7 @@ Hard.i: Hard.cpp.i
 
 # target to preprocess a source file
 Hard.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Hard.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Hard.cpp.i
 .PHONY : Hard.cpp.i
 
 Hard.s: Hard.cpp.s
@@ -174,7 +174,7 @@ Hard.s: Hard.cpp.s
 
 # target to generate assembly for a file
 Hard.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Hard.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Hard.cpp.s
 .PHONY : Hard.cpp.s
 
 Humain.o: Humain.cpp.o
@@ -183,7 +183,7 @@ Humain.o: Humain.cpp.o
 
 # target to build an object file
 Humain.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Humain.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Humain.cpp.o
 .PHONY : Humain.cpp.o
 
 Humain.i: Humain.cpp.i
@@ -192,7 +192,7 @@ Humain.i: Humain.cpp.i
 
 # target to preprocess a source file
 Humain.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Humain.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Humain.cpp.i
 .PHONY : Humain.cpp.i
 
 Humain.s: Humain.cpp.s
@@ -201,7 +201,7 @@ Humain.s: Humain.cpp.s
 
 # target to generate assembly for a file
 Humain.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Humain.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Humain.cpp.s
 .PHONY : Humain.cpp.s
 
 Normal.o: Normal.cpp.o
@@ -210,7 +210,7 @@ Normal.o: Normal.cpp.o
 
 # target to build an object file
 Normal.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Normal.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Normal.cpp.o
 .PHONY : Normal.cpp.o
 
 Normal.i: Normal.cpp.i
@@ -219,7 +219,7 @@ Normal.i: Normal.cpp.i
 
 # target to preprocess a source file
 Normal.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Normal.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Normal.cpp.i
 .PHONY : Normal.cpp.i
 
 Normal.s: Normal.cpp.s
@@ -228,7 +228,7 @@ Normal.s: Normal.cpp.s
 
 # target to generate assembly for a file
 Normal.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Normal.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Normal.cpp.s
 .PHONY : Normal.cpp.s
 
 Robot.o: Robot.cpp.o
@@ -237,7 +237,7 @@ Robot.o: Robot.cpp.o
 
 # target to build an object file
 Robot.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Robot.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Robot.cpp.o
 .PHONY : Robot.cpp.o
 
 Robot.i: Robot.cpp.i
@@ -246,7 +246,7 @@ Robot.i: Robot.cpp.i
 
 # target to preprocess a source file
 Robot.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Robot.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Robot.cpp.i
 .PHONY : Robot.cpp.i
 
 Robot.s: Robot.cpp.s
@@ -255,7 +255,7 @@ Robot.s: Robot.cpp.s
 
 # target to generate assembly for a file
 Robot.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Robot.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Robot.cpp.s
 .PHONY : Robot.cpp.s
 
 Strategy.o: Strategy.cpp.o
@@ -264,7 +264,7 @@ Strategy.o: Strategy.cpp.o
 
 # target to build an object file
 Strategy.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Strategy.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Strategy.cpp.o
 .PHONY : Strategy.cpp.o
 
 Strategy.i: Strategy.cpp.i
@@ -273,7 +273,7 @@ Strategy.i: Strategy.cpp.i
 
 # target to preprocess a source file
 Strategy.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Strategy.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Strategy.cpp.i
 .PHONY : Strategy.cpp.i
 
 Strategy.s: Strategy.cpp.s
@@ -282,7 +282,7 @@ Strategy.s: Strategy.cpp.s
 
 # target to generate assembly for a file
 Strategy.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Strategy.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/Strategy.cpp.s
 .PHONY : Strategy.cpp.s
 
 configuration.o: configuration.cpp.o
@@ -291,7 +291,7 @@ configuration.o: configuration.cpp.o
 
 # target to build an object file
 configuration.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/configuration.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/configuration.cpp.o
 .PHONY : configuration.cpp.o
 
 configuration.i: configuration.cpp.i
@@ -300,7 +300,7 @@ configuration.i: configuration.cpp.i
 
 # target to preprocess a source file
 configuration.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/configuration.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/configuration.cpp.i
 .PHONY : configuration.cpp.i
 
 configuration.s: configuration.cpp.s
@@ -309,7 +309,7 @@ configuration.s: configuration.cpp.s
 
 # target to generate assembly for a file
 configuration.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/configuration.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/configuration.cpp.s
 .PHONY : configuration.cpp.s
 
 main.o: main.cpp.o
@@ -318,7 +318,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -327,7 +327,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -336,7 +336,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 nimASCIIRenderer.o: nimASCIIRenderer.cpp.o
@@ -345,7 +345,7 @@ nimASCIIRenderer.o: nimASCIIRenderer.cpp.o
 
 # target to build an object file
 nimASCIIRenderer.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/nimASCIIRenderer.cpp.o
 .PHONY : nimASCIIRenderer.cpp.o
 
 nimASCIIRenderer.i: nimASCIIRenderer.cpp.i
@@ -354,7 +354,7 @@ nimASCIIRenderer.i: nimASCIIRenderer.cpp.i
 
 # target to preprocess a source file
 nimASCIIRenderer.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/nimASCIIRenderer.cpp.i
 .PHONY : nimASCIIRenderer.cpp.i
 
 nimASCIIRenderer.s: nimASCIIRenderer.cpp.s
@@ -363,7 +363,7 @@ nimASCIIRenderer.s: nimASCIIRenderer.cpp.s
 
 # target to generate assembly for a file
 nimASCIIRenderer.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/nimASCIIRenderer.cpp.s
 .PHONY : nimASCIIRenderer.cpp.s
 
 nimGenerator.o: nimGenerator.cpp.o
@@ -372,7 +372,7 @@ nimGenerator.o: nimGenerator.cpp.o
 
 # target to build an object file
 nimGenerator.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/nimGenerator.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/nimGenerator.cpp.o
 .PHONY : nimGenerator.cpp.o
 
 nimGenerator.i: nimGenerator.cpp.i
@@ -381,7 +381,7 @@ nimGenerator.i: nimGenerator.cpp.i
 
 # target to preprocess a source file
 nimGenerator.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/nimGenerator.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/nimGenerator.cpp.i
 .PHONY : nimGenerator.cpp.i
 
 nimGenerator.s: nimGenerator.cpp.s
@@ -390,7 +390,7 @@ nimGenerator.s: nimGenerator.cpp.s
 
 # target to generate assembly for a file
 nimGenerator.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/nimGenerator.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/nimGenerator.cpp.s
 .PHONY : nimGenerator.cpp.s
 
 nimSDLRenderer.o: nimSDLRenderer.cpp.o
@@ -399,7 +399,7 @@ nimSDLRenderer.o: nimSDLRenderer.cpp.o
 
 # target to build an object file
 nimSDLRenderer.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/nimSDLRenderer.cpp.o
 .PHONY : nimSDLRenderer.cpp.o
 
 nimSDLRenderer.i: nimSDLRenderer.cpp.i
@@ -408,7 +408,7 @@ nimSDLRenderer.i: nimSDLRenderer.cpp.i
 
 # target to preprocess a source file
 nimSDLRenderer.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/nimSDLRenderer.cpp.i
 .PHONY : nimSDLRenderer.cpp.i
 
 nimSDLRenderer.s: nimSDLRenderer.cpp.s
@@ -417,7 +417,7 @@ nimSDLRenderer.s: nimSDLRenderer.cpp.s
 
 # target to generate assembly for a file
 nimSDLRenderer.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/nimSDLRenderer.cpp.s
 .PHONY : nimSDLRenderer.cpp.s
 
 player.o: player.cpp.o
@@ -426,7 +426,7 @@ player.o: player.cpp.o
 
 # target to build an object file
 player.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/player.cpp.o
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/player.cpp.o
 .PHONY : player.cpp.o
 
 player.i: player.cpp.i
@@ -435,7 +435,7 @@ player.i: player.cpp.i
 
 # target to preprocess a source file
 player.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/player.cpp.i
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/player.cpp.i
 .PHONY : player.cpp.i
 
 player.s: player.cpp.s
@@ -444,7 +444,7 @@ player.s: player.cpp.s
 
 # target to generate assembly for a file
 player.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/player.cpp.s
+	$(MAKE) -f CMakeFiles/NimGame.dir/build.make CMakeFiles/NimGame.dir/player.cpp.s
 .PHONY : player.cpp.s
 
 # Help Target
@@ -454,7 +454,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... untitled4"
+	@echo "... NimGame"
 	@echo "... edit_cache"
 	@echo "... Easy.o"
 	@echo "... Easy.i"

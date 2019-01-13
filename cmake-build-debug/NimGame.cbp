@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NimGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jupiter/CLionProjects/NimGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jupiter/CLionProjects/NimGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NimGame">
+				<Option output="/home/jupiter/CLionProjects/NimGame/cmake-build-debug/NimGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jupiter/CLionProjects/NimGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 NimGame"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NimGame/fast">
+				<Option output="/home/jupiter/CLionProjects/NimGame/cmake-build-debug/NimGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jupiter/CLionProjects/NimGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 NimGame/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jupiter/CLionProjects/NimGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jupiter/CLionProjects/NimGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Easy.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Easy.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Hard.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Hard.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Humain.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Humain.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Normal.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Normal.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Robot.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Robot.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Strategy.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/Strategy.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/configuration.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/configuration.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/main.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/nimASCIIRenderer.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/nimASCIIRenderer.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/nimGenerator.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/nimGenerator.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/nimSDLRenderer.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/nimSDLRenderer.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/player.cpp">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/player.h">
+			<Option target="NimGame"/>
+		</Unit>
+		<Unit filename="/home/jupiter/CLionProjects/NimGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -3,9 +3,15 @@
 
 CMakeFiles/untitled4.dir/Easy.cpp.o: ../Easy.cpp
 CMakeFiles/untitled4.dir/Easy.cpp.o: ../Easy.h
+CMakeFiles/untitled4.dir/Easy.cpp.o: ../Strategy.h
+CMakeFiles/untitled4.dir/Easy.cpp.o: ../nimTurn.h
+CMakeFiles/untitled4.dir/Easy.cpp.o: ../player.h
 
 CMakeFiles/untitled4.dir/Hard.cpp.o: ../Hard.cpp
 CMakeFiles/untitled4.dir/Hard.cpp.o: ../Hard.h
+CMakeFiles/untitled4.dir/Hard.cpp.o: ../Strategy.h
+CMakeFiles/untitled4.dir/Hard.cpp.o: ../nimTurn.h
+CMakeFiles/untitled4.dir/Hard.cpp.o: ../player.h
 
 CMakeFiles/untitled4.dir/Humain.cpp.o: ../Humain.cpp
 CMakeFiles/untitled4.dir/Humain.cpp.o: ../Humain.h
@@ -14,6 +20,9 @@ CMakeFiles/untitled4.dir/Humain.cpp.o: ../player.h
 
 CMakeFiles/untitled4.dir/Normal.cpp.o: ../Normal.cpp
 CMakeFiles/untitled4.dir/Normal.cpp.o: ../Normal.h
+CMakeFiles/untitled4.dir/Normal.cpp.o: ../Strategy.h
+CMakeFiles/untitled4.dir/Normal.cpp.o: ../nimTurn.h
+CMakeFiles/untitled4.dir/Normal.cpp.o: ../player.h
 
 CMakeFiles/untitled4.dir/Robot.cpp.o: ../Robot.cpp
 CMakeFiles/untitled4.dir/Robot.cpp.o: ../Robot.h

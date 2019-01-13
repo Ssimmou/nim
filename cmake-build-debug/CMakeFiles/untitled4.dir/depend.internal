@@ -4,9 +4,15 @@
 CMakeFiles/untitled4.dir/Easy.cpp.o
  /home/jupiter/CLionProjects/NimGame/Easy.cpp
  /home/jupiter/CLionProjects/NimGame/Easy.h
+ /home/jupiter/CLionProjects/NimGame/Strategy.h
+ /home/jupiter/CLionProjects/NimGame/nimTurn.h
+ /home/jupiter/CLionProjects/NimGame/player.h
 CMakeFiles/untitled4.dir/Hard.cpp.o
  /home/jupiter/CLionProjects/NimGame/Hard.cpp
  /home/jupiter/CLionProjects/NimGame/Hard.h
+ /home/jupiter/CLionProjects/NimGame/Strategy.h
+ /home/jupiter/CLionProjects/NimGame/nimTurn.h
+ /home/jupiter/CLionProjects/NimGame/player.h
 CMakeFiles/untitled4.dir/Humain.cpp.o
  /home/jupiter/CLionProjects/NimGame/Humain.cpp
  /home/jupiter/CLionProjects/NimGame/Humain.h
@@ -15,6 +21,9 @@ CMakeFiles/untitled4.dir/Humain.cpp.o
 CMakeFiles/untitled4.dir/Normal.cpp.o
  /home/jupiter/CLionProjects/NimGame/Normal.cpp
  /home/jupiter/CLionProjects/NimGame/Normal.h
+ /home/jupiter/CLionProjects/NimGame/Strategy.h
+ /home/jupiter/CLionProjects/NimGame/nimTurn.h
+ /home/jupiter/CLionProjects/NimGame/player.h
 CMakeFiles/untitled4.dir/Robot.cpp.o
  /home/jupiter/CLionProjects/NimGame/Robot.cpp
  /home/jupiter/CLionProjects/NimGame/Robot.h

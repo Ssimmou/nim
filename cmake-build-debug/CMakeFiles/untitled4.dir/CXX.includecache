@@ -6,27 +6,39 @@
 
 #IncludeRegexTransform: 
 
+/home/jupiter/CLionProjects/NimGame/Easy.cpp
+Easy.h
+/home/jupiter/CLionProjects/NimGame/Easy.h
+
+/home/jupiter/CLionProjects/NimGame/Easy.h
+Strategy.h
+/home/jupiter/CLionProjects/NimGame/Strategy.h
+
 /home/jupiter/CLionProjects/NimGame/Hard.cpp
 Hard.h
 /home/jupiter/CLionProjects/NimGame/Hard.h
 
 /home/jupiter/CLionProjects/NimGame/Hard.h
+Strategy.h
+/home/jupiter/CLionProjects/NimGame/Strategy.h
 
 /home/jupiter/CLionProjects/NimGame/Normal.cpp
 Normal.h
 /home/jupiter/CLionProjects/NimGame/Normal.h
 
 /home/jupiter/CLionProjects/NimGame/Normal.h
+Strategy.h
+/home/jupiter/CLionProjects/NimGame/Strategy.h
 
-/home/jupiter/CLionProjects/NimGame/Robot.cpp
-Robot.h
-/home/jupiter/CLionProjects/NimGame/Robot.h
-
-/home/jupiter/CLionProjects/NimGame/Robot.h
-string
--
+/home/jupiter/CLionProjects/NimGame/Strategy.h
 player.h
 /home/jupiter/CLionProjects/NimGame/player.h
+
+/home/jupiter/CLionProjects/NimGame/configuration.cpp
+configuration.h
+/home/jupiter/CLionProjects/NimGame/configuration.h
+
+/home/jupiter/CLionProjects/NimGame/configuration.h
 
 /home/jupiter/CLionProjects/NimGame/nimTurn.h
 iostream
