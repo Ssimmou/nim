@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/56/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/58/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/56/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupiter/CLionProjects/untitled4
+CMAKE_SOURCE_DIR = /home/jupiter/CLionProjects/NimGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupiter/CLionProjects/untitled4/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jupiter/CLionProjects/NimGame/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled4.dir/depend.make
@@ -59,107 +59,159 @@ include CMakeFiles/untitled4.dir/flags.make
 
 CMakeFiles/untitled4.dir/main.cpp.o: CMakeFiles/untitled4.dir/flags.make
 CMakeFiles/untitled4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled4.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/main.cpp.o -c /home/jupiter/CLionProjects/untitled4/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled4.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/main.cpp.o -c /home/jupiter/CLionProjects/NimGame/main.cpp
 
 CMakeFiles/untitled4.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/untitled4/main.cpp > CMakeFiles/untitled4.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/main.cpp > CMakeFiles/untitled4.dir/main.cpp.i
 
 CMakeFiles/untitled4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/untitled4/main.cpp -o CMakeFiles/untitled4.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/main.cpp -o CMakeFiles/untitled4.dir/main.cpp.s
 
 CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.o: CMakeFiles/untitled4.dir/flags.make
 CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.o: ../nimASCIIRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.o -c /home/jupiter/CLionProjects/untitled4/nimASCIIRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.o -c /home/jupiter/CLionProjects/NimGame/nimASCIIRenderer.cpp
 
 CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/untitled4/nimASCIIRenderer.cpp > CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/nimASCIIRenderer.cpp > CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.i
 
 CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/untitled4/nimASCIIRenderer.cpp -o CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/nimASCIIRenderer.cpp -o CMakeFiles/untitled4.dir/nimASCIIRenderer.cpp.s
 
 CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.o: CMakeFiles/untitled4.dir/flags.make
 CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.o: ../nimSDLRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.o -c /home/jupiter/CLionProjects/untitled4/nimSDLRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.o -c /home/jupiter/CLionProjects/NimGame/nimSDLRenderer.cpp
 
 CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/untitled4/nimSDLRenderer.cpp > CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/nimSDLRenderer.cpp > CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.i
 
 CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/untitled4/nimSDLRenderer.cpp -o CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/nimSDLRenderer.cpp -o CMakeFiles/untitled4.dir/nimSDLRenderer.cpp.s
 
 CMakeFiles/untitled4.dir/nimGenerator.cpp.o: CMakeFiles/untitled4.dir/flags.make
 CMakeFiles/untitled4.dir/nimGenerator.cpp.o: ../nimGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled4.dir/nimGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/nimGenerator.cpp.o -c /home/jupiter/CLionProjects/untitled4/nimGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled4.dir/nimGenerator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/nimGenerator.cpp.o -c /home/jupiter/CLionProjects/NimGame/nimGenerator.cpp
 
 CMakeFiles/untitled4.dir/nimGenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/nimGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/untitled4/nimGenerator.cpp > CMakeFiles/untitled4.dir/nimGenerator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/nimGenerator.cpp > CMakeFiles/untitled4.dir/nimGenerator.cpp.i
 
 CMakeFiles/untitled4.dir/nimGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/nimGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/untitled4/nimGenerator.cpp -o CMakeFiles/untitled4.dir/nimGenerator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/nimGenerator.cpp -o CMakeFiles/untitled4.dir/nimGenerator.cpp.s
 
 CMakeFiles/untitled4.dir/player.cpp.o: CMakeFiles/untitled4.dir/flags.make
 CMakeFiles/untitled4.dir/player.cpp.o: ../player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled4.dir/player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/player.cpp.o -c /home/jupiter/CLionProjects/untitled4/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled4.dir/player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/player.cpp.o -c /home/jupiter/CLionProjects/NimGame/player.cpp
 
 CMakeFiles/untitled4.dir/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/untitled4/player.cpp > CMakeFiles/untitled4.dir/player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/player.cpp > CMakeFiles/untitled4.dir/player.cpp.i
 
 CMakeFiles/untitled4.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/untitled4/player.cpp -o CMakeFiles/untitled4.dir/player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/player.cpp -o CMakeFiles/untitled4.dir/player.cpp.s
 
 CMakeFiles/untitled4.dir/configuration.cpp.o: CMakeFiles/untitled4.dir/flags.make
 CMakeFiles/untitled4.dir/configuration.cpp.o: ../configuration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled4.dir/configuration.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/configuration.cpp.o -c /home/jupiter/CLionProjects/untitled4/configuration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled4.dir/configuration.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/configuration.cpp.o -c /home/jupiter/CLionProjects/NimGame/configuration.cpp
 
 CMakeFiles/untitled4.dir/configuration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/configuration.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/untitled4/configuration.cpp > CMakeFiles/untitled4.dir/configuration.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/configuration.cpp > CMakeFiles/untitled4.dir/configuration.cpp.i
 
 CMakeFiles/untitled4.dir/configuration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/configuration.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/untitled4/configuration.cpp -o CMakeFiles/untitled4.dir/configuration.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/configuration.cpp -o CMakeFiles/untitled4.dir/configuration.cpp.s
 
 CMakeFiles/untitled4.dir/Humain.cpp.o: CMakeFiles/untitled4.dir/flags.make
 CMakeFiles/untitled4.dir/Humain.cpp.o: ../Humain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled4.dir/Humain.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/Humain.cpp.o -c /home/jupiter/CLionProjects/untitled4/Humain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled4.dir/Humain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/Humain.cpp.o -c /home/jupiter/CLionProjects/NimGame/Humain.cpp
 
 CMakeFiles/untitled4.dir/Humain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/Humain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/untitled4/Humain.cpp > CMakeFiles/untitled4.dir/Humain.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/Humain.cpp > CMakeFiles/untitled4.dir/Humain.cpp.i
 
 CMakeFiles/untitled4.dir/Humain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/Humain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/untitled4/Humain.cpp -o CMakeFiles/untitled4.dir/Humain.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/Humain.cpp -o CMakeFiles/untitled4.dir/Humain.cpp.s
 
-CMakeFiles/untitled4.dir/robot.cpp.o: CMakeFiles/untitled4.dir/flags.make
-CMakeFiles/untitled4.dir/robot.cpp.o: robot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled4.dir/robot.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/robot.cpp.o -c /home/jupiter/CLionProjects/untitled4/cmake-build-debug/robot.cpp
+CMakeFiles/untitled4.dir/Robot.cpp.o: CMakeFiles/untitled4.dir/flags.make
+CMakeFiles/untitled4.dir/Robot.cpp.o: ../Robot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled4.dir/Robot.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/Robot.cpp.o -c /home/jupiter/CLionProjects/NimGame/Robot.cpp
 
-CMakeFiles/untitled4.dir/robot.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/robot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/untitled4/cmake-build-debug/robot.cpp > CMakeFiles/untitled4.dir/robot.cpp.i
+CMakeFiles/untitled4.dir/Robot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/Robot.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/Robot.cpp > CMakeFiles/untitled4.dir/Robot.cpp.i
 
-CMakeFiles/untitled4.dir/robot.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/robot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/untitled4/cmake-build-debug/robot.cpp -o CMakeFiles/untitled4.dir/robot.cpp.s
+CMakeFiles/untitled4.dir/Robot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/Robot.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/Robot.cpp -o CMakeFiles/untitled4.dir/Robot.cpp.s
+
+CMakeFiles/untitled4.dir/Strategy.cpp.o: CMakeFiles/untitled4.dir/flags.make
+CMakeFiles/untitled4.dir/Strategy.cpp.o: ../Strategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled4.dir/Strategy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/Strategy.cpp.o -c /home/jupiter/CLionProjects/NimGame/Strategy.cpp
+
+CMakeFiles/untitled4.dir/Strategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/Strategy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/Strategy.cpp > CMakeFiles/untitled4.dir/Strategy.cpp.i
+
+CMakeFiles/untitled4.dir/Strategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/Strategy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/Strategy.cpp -o CMakeFiles/untitled4.dir/Strategy.cpp.s
+
+CMakeFiles/untitled4.dir/Easy.cpp.o: CMakeFiles/untitled4.dir/flags.make
+CMakeFiles/untitled4.dir/Easy.cpp.o: ../Easy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled4.dir/Easy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/Easy.cpp.o -c /home/jupiter/CLionProjects/NimGame/Easy.cpp
+
+CMakeFiles/untitled4.dir/Easy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/Easy.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/Easy.cpp > CMakeFiles/untitled4.dir/Easy.cpp.i
+
+CMakeFiles/untitled4.dir/Easy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/Easy.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/Easy.cpp -o CMakeFiles/untitled4.dir/Easy.cpp.s
+
+CMakeFiles/untitled4.dir/Hard.cpp.o: CMakeFiles/untitled4.dir/flags.make
+CMakeFiles/untitled4.dir/Hard.cpp.o: ../Hard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled4.dir/Hard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/Hard.cpp.o -c /home/jupiter/CLionProjects/NimGame/Hard.cpp
+
+CMakeFiles/untitled4.dir/Hard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/Hard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/Hard.cpp > CMakeFiles/untitled4.dir/Hard.cpp.i
+
+CMakeFiles/untitled4.dir/Hard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/Hard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/Hard.cpp -o CMakeFiles/untitled4.dir/Hard.cpp.s
+
+CMakeFiles/untitled4.dir/Normal.cpp.o: CMakeFiles/untitled4.dir/flags.make
+CMakeFiles/untitled4.dir/Normal.cpp.o: ../Normal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/untitled4.dir/Normal.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled4.dir/Normal.cpp.o -c /home/jupiter/CLionProjects/NimGame/Normal.cpp
+
+CMakeFiles/untitled4.dir/Normal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/Normal.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jupiter/CLionProjects/NimGame/Normal.cpp > CMakeFiles/untitled4.dir/Normal.cpp.i
+
+CMakeFiles/untitled4.dir/Normal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/Normal.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jupiter/CLionProjects/NimGame/Normal.cpp -o CMakeFiles/untitled4.dir/Normal.cpp.s
 
 # Object files for target untitled4
 untitled4_OBJECTS = \
@@ -170,7 +222,11 @@ untitled4_OBJECTS = \
 "CMakeFiles/untitled4.dir/player.cpp.o" \
 "CMakeFiles/untitled4.dir/configuration.cpp.o" \
 "CMakeFiles/untitled4.dir/Humain.cpp.o" \
-"CMakeFiles/untitled4.dir/robot.cpp.o"
+"CMakeFiles/untitled4.dir/Robot.cpp.o" \
+"CMakeFiles/untitled4.dir/Strategy.cpp.o" \
+"CMakeFiles/untitled4.dir/Easy.cpp.o" \
+"CMakeFiles/untitled4.dir/Hard.cpp.o" \
+"CMakeFiles/untitled4.dir/Normal.cpp.o"
 
 # External object files for target untitled4
 untitled4_EXTERNAL_OBJECTS =
@@ -182,10 +238,14 @@ untitled4: CMakeFiles/untitled4.dir/nimGenerator.cpp.o
 untitled4: CMakeFiles/untitled4.dir/player.cpp.o
 untitled4: CMakeFiles/untitled4.dir/configuration.cpp.o
 untitled4: CMakeFiles/untitled4.dir/Humain.cpp.o
-untitled4: CMakeFiles/untitled4.dir/robot.cpp.o
+untitled4: CMakeFiles/untitled4.dir/Robot.cpp.o
+untitled4: CMakeFiles/untitled4.dir/Strategy.cpp.o
+untitled4: CMakeFiles/untitled4.dir/Easy.cpp.o
+untitled4: CMakeFiles/untitled4.dir/Hard.cpp.o
+untitled4: CMakeFiles/untitled4.dir/Normal.cpp.o
 untitled4: CMakeFiles/untitled4.dir/build.make
 untitled4: CMakeFiles/untitled4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable untitled4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable untitled4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -198,6 +258,6 @@ CMakeFiles/untitled4.dir/clean:
 .PHONY : CMakeFiles/untitled4.dir/clean
 
 CMakeFiles/untitled4.dir/depend:
-	cd /home/jupiter/CLionProjects/untitled4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupiter/CLionProjects/untitled4 /home/jupiter/CLionProjects/untitled4 /home/jupiter/CLionProjects/untitled4/cmake-build-debug /home/jupiter/CLionProjects/untitled4/cmake-build-debug /home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/untitled4.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jupiter/CLionProjects/NimGame/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jupiter/CLionProjects/NimGame /home/jupiter/CLionProjects/NimGame /home/jupiter/CLionProjects/NimGame/cmake-build-debug /home/jupiter/CLionProjects/NimGame/cmake-build-debug /home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles/untitled4.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled4.dir/depend
 

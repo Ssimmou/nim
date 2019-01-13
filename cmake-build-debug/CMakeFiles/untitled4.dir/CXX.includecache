@@ -6,25 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/jupiter/CLionProjects/untitled4/cmake-build-debug/robot.cpp
-robot.h
-/home/jupiter/CLionProjects/untitled4/cmake-build-debug/robot.h
+/home/jupiter/CLionProjects/NimGame/Hard.cpp
+Hard.h
+/home/jupiter/CLionProjects/NimGame/Hard.h
 
-/home/jupiter/CLionProjects/untitled4/cmake-build-debug/robot.h
+/home/jupiter/CLionProjects/NimGame/Hard.h
+
+/home/jupiter/CLionProjects/NimGame/Normal.cpp
+Normal.h
+/home/jupiter/CLionProjects/NimGame/Normal.h
+
+/home/jupiter/CLionProjects/NimGame/Normal.h
+
+/home/jupiter/CLionProjects/NimGame/Robot.cpp
+Robot.h
+/home/jupiter/CLionProjects/NimGame/Robot.h
+
+/home/jupiter/CLionProjects/NimGame/Robot.h
 string
 -
-../player.h
-/home/jupiter/CLionProjects/untitled4/player.h
+player.h
+/home/jupiter/CLionProjects/NimGame/player.h
 
-/home/jupiter/CLionProjects/untitled4/nimTurn.h
+/home/jupiter/CLionProjects/NimGame/nimTurn.h
 iostream
 -
 
-/home/jupiter/CLionProjects/untitled4/player.h
+/home/jupiter/CLionProjects/NimGame/player.h
 iostream
 -
 string
 -
 nimTurn.h
-/home/jupiter/CLionProjects/untitled4/nimTurn.h
+/home/jupiter/CLionProjects/NimGame/nimTurn.h
 

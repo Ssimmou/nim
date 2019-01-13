@@ -6,7 +6,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled4.dir/player.cpp.o"
   "CMakeFiles/untitled4.dir/configuration.cpp.o"
   "CMakeFiles/untitled4.dir/Humain.cpp.o"
-  "CMakeFiles/untitled4.dir/robot.cpp.o"
+  "CMakeFiles/untitled4.dir/Robot.cpp.o"
+  "CMakeFiles/untitled4.dir/Strategy.cpp.o"
+  "CMakeFiles/untitled4.dir/Easy.cpp.o"
+  "CMakeFiles/untitled4.dir/Hard.cpp.o"
+  "CMakeFiles/untitled4.dir/Normal.cpp.o"
   "untitled4.pdb"
   "untitled4"
 )

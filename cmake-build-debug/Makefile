@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/56/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/58/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/56/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jupiter/CLionProjects/untitled4
+CMAKE_SOURCE_DIR = /home/jupiter/CLionProjects/NimGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jupiter/CLionProjects/untitled4/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jupiter/CLionProjects/NimGame/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/jupiter/CLionProjects/untitled4/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/58/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/58/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles /home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles /home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupiter/CLionProjects/untitled4/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jupiter/CLionProjects/NimGame/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,60 @@ untitled4/fast:
 	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/build
 .PHONY : untitled4/fast
 
+Easy.o: Easy.cpp.o
+
+.PHONY : Easy.o
+
+# target to build an object file
+Easy.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Easy.cpp.o
+.PHONY : Easy.cpp.o
+
+Easy.i: Easy.cpp.i
+
+.PHONY : Easy.i
+
+# target to preprocess a source file
+Easy.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Easy.cpp.i
+.PHONY : Easy.cpp.i
+
+Easy.s: Easy.cpp.s
+
+.PHONY : Easy.s
+
+# target to generate assembly for a file
+Easy.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Easy.cpp.s
+.PHONY : Easy.cpp.s
+
+Hard.o: Hard.cpp.o
+
+.PHONY : Hard.o
+
+# target to build an object file
+Hard.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Hard.cpp.o
+.PHONY : Hard.cpp.o
+
+Hard.i: Hard.cpp.i
+
+.PHONY : Hard.i
+
+# target to preprocess a source file
+Hard.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Hard.cpp.i
+.PHONY : Hard.cpp.i
+
+Hard.s: Hard.cpp.s
+
+.PHONY : Hard.s
+
+# target to generate assembly for a file
+Hard.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Hard.cpp.s
+.PHONY : Hard.cpp.s
+
 Humain.o: Humain.cpp.o
 
 .PHONY : Humain.o
@@ -149,6 +203,87 @@ Humain.s: Humain.cpp.s
 Humain.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Humain.cpp.s
 .PHONY : Humain.cpp.s
+
+Normal.o: Normal.cpp.o
+
+.PHONY : Normal.o
+
+# target to build an object file
+Normal.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Normal.cpp.o
+.PHONY : Normal.cpp.o
+
+Normal.i: Normal.cpp.i
+
+.PHONY : Normal.i
+
+# target to preprocess a source file
+Normal.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Normal.cpp.i
+.PHONY : Normal.cpp.i
+
+Normal.s: Normal.cpp.s
+
+.PHONY : Normal.s
+
+# target to generate assembly for a file
+Normal.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Normal.cpp.s
+.PHONY : Normal.cpp.s
+
+Robot.o: Robot.cpp.o
+
+.PHONY : Robot.o
+
+# target to build an object file
+Robot.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Robot.cpp.o
+.PHONY : Robot.cpp.o
+
+Robot.i: Robot.cpp.i
+
+.PHONY : Robot.i
+
+# target to preprocess a source file
+Robot.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Robot.cpp.i
+.PHONY : Robot.cpp.i
+
+Robot.s: Robot.cpp.s
+
+.PHONY : Robot.s
+
+# target to generate assembly for a file
+Robot.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Robot.cpp.s
+.PHONY : Robot.cpp.s
+
+Strategy.o: Strategy.cpp.o
+
+.PHONY : Strategy.o
+
+# target to build an object file
+Strategy.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Strategy.cpp.o
+.PHONY : Strategy.cpp.o
+
+Strategy.i: Strategy.cpp.i
+
+.PHONY : Strategy.i
+
+# target to preprocess a source file
+Strategy.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Strategy.cpp.i
+.PHONY : Strategy.cpp.i
+
+Strategy.s: Strategy.cpp.s
+
+.PHONY : Strategy.s
+
+# target to generate assembly for a file
+Strategy.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/Strategy.cpp.s
+.PHONY : Strategy.cpp.s
 
 configuration.o: configuration.cpp.o
 
@@ -312,33 +447,6 @@ player.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/player.cpp.s
 .PHONY : player.cpp.s
 
-robot.o: robot.cpp.o
-
-.PHONY : robot.o
-
-# target to build an object file
-robot.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/robot.cpp.o
-.PHONY : robot.cpp.o
-
-robot.i: robot.cpp.i
-
-.PHONY : robot.i
-
-# target to preprocess a source file
-robot.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/robot.cpp.i
-.PHONY : robot.cpp.i
-
-robot.s: robot.cpp.s
-
-.PHONY : robot.s
-
-# target to generate assembly for a file
-robot.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled4.dir/build.make CMakeFiles/untitled4.dir/robot.cpp.s
-.PHONY : robot.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -348,9 +456,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled4"
 	@echo "... edit_cache"
+	@echo "... Easy.o"
+	@echo "... Easy.i"
+	@echo "... Easy.s"
+	@echo "... Hard.o"
+	@echo "... Hard.i"
+	@echo "... Hard.s"
 	@echo "... Humain.o"
 	@echo "... Humain.i"
 	@echo "... Humain.s"
+	@echo "... Normal.o"
+	@echo "... Normal.i"
+	@echo "... Normal.s"
+	@echo "... Robot.o"
+	@echo "... Robot.i"
+	@echo "... Robot.s"
+	@echo "... Strategy.o"
+	@echo "... Strategy.i"
+	@echo "... Strategy.s"
 	@echo "... configuration.o"
 	@echo "... configuration.i"
 	@echo "... configuration.s"
@@ -369,9 +492,6 @@ help:
 	@echo "... player.o"
 	@echo "... player.i"
 	@echo "... player.s"
-	@echo "... robot.o"
-	@echo "... robot.i"
-	@echo "... robot.s"
 .PHONY : help
 
 

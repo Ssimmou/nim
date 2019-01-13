@@ -1,4 +1,4 @@
-# Install script for directory: /home/jupiter/CLionProjects/untitled4
+# Install script for directory: /home/jupiter/CLionProjects/NimGame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jupiter/CLionProjects/untitled4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jupiter/CLionProjects/NimGame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
